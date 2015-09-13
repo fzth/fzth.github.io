@@ -1,0 +1,304 @@
+/* sizes */
+
+
+.size-big {
+	font-size: 10em;
+}
+
+.desaturate {
+	filter: grayscale(100%);
+}
+
+.padding-50 {
+	padding:50px;
+}
+
+.padding-25 {
+	padding-bottom: 50px;
+}
+
+.padding-top-bot{
+	padding: 50px 0 50px 0;
+}
+
+#mirror p {
+	padding-top: 20px;
+}
+
+#mirror {
+	background-color: #dbbf56;
+}
+
+
+a {
+	color:black;
+}
+
+
+.glyphicon {
+    font-size: 40px;
+}
+
+
+#features p {
+	font-size: 1.3em;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;
+	padding:15px;
+	margin:20px 0 20px 0;
+		opacity:0.7;
+}
+
+#end .container {
+	padding-top: 5%;
+}
+
+.jumbotron .row {
+	margin-top:5%;
+}
+
+
+
+.font-star {
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+.font-tech {
+	/*font-family: 'EB Garamond', serif;*/
+	font-family: 'Share Tech Mono', ;
+}
+
+.font-source {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.jumbotron p {
+	margin-top: 10%;
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+.jumbotron ul {
+	padding: 20px;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.height-100{
+	height:100%;
+}
+
+.text-orange {
+	color:orange;
+}
+
+.text-blue {
+	color: blue;
+}
+
+.text-green {
+	color:green;
+}
+
+
+.pos-relative {
+	position:relative;
+}
+
+.pos-absolute {
+	position: absolute;
+}
+
+
+.pos-top-10 {
+	top:10%;
+}
+
+
+.pos-left-0 {
+	left: 0;
+}
+
+.pos-left-10 {
+	left: 10%;
+}
+
+.pos-bottom-10 {
+	bottom: 10%;
+}
+
+.pos-right-0 {
+	right: 0;
+}
+
+.air {
+	opacity:0.8;
+}
+
+
+#testi {
+	margin:5%;
+}
+
+
+.height-33 {
+	height: 33vh;
+}
+
+.width-25 {
+	width:25%;
+}
+
+.width-33 {
+	width:33%;
+}
+
+.width-100 {
+	width:100%;
+}
+
+/* colors */
+
+
+.bgn-white {
+	background-color: white;
+}
+
+.bgn-black {
+	background-color: black;
+}
+
+.bgn-orange {
+	background-color: orange;
+}
+
+.bgn-darkgreen {
+	background-color: #003300;
+}
+
+.text-white {
+	color:white;
+}
+
+.text-red {
+	color:red;
+}
+
+.text-grey {
+	color:lightgrey;
+}
+
+.text-pink {
+	color:#FFB6C1;
+}
+
+.top-border-green {
+	border-top: 3px solid green;
+}
+
+.top-border-red {
+	border-top: 3px solid red;
+}
+
+.top-border-blue {
+	border-top: 3px solid blue;
+}
+
+.top-border-orange {
+	border-top: 3px solid orange;
+}
+
+/* background images*/
+
+
+.jumbotron {
+	background: url('../img/perseus.jpg') no-repeat center center;
+	width:100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+#mirror {
+	background: url('../img/mirror.jpg') no-repeat center center;
+	width:100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0;
+	padding: 0;
+}
+#end {
+	background: url('../img/sea.jpg') no-repeat center center;
+	width:100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0;
+	padding: 0;
+}
+
+.bg-img {
+	background: url('../img/10.jpg') no-repeat center center;
+	width:100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0;
+	padding: 0;
+}
+
+
+.bg-img-1 {
+	background: url('../img/11.jpg') no-repeat center center;
+	width:100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0;
+	padding: 0;
+}
+
+
+.bg-img-2 {
+	background: url('../img/12.jpg') no-repeat center center;
+	width:100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0;
+	padding: 0;
+}
+
+/* copy-paste from css-tricks */
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+	content: close-quote;
+	font-size:0;
+}
+
+blockquote p {
+  display: inline;
+}
